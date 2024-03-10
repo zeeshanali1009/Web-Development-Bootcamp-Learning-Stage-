@@ -1,2 +1,10 @@
 # Web-Development-Tutorials-Learning-Stage-
-We will learn about web development.
+I will learn Complete Web Development in small small sections.
+My Web development learning program involves the following stages:
+1. Basic Html
+   .Headings
+   .Paragraphs
+   .Void Elements
+   .A Simple Website (Favourite Cricketers)
+3. Intermediate Html
+
