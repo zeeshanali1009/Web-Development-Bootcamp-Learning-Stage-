@@ -7,4 +7,7 @@ My Web development learning program involves the following stages:
    .Void Elements
    .A Simple Website (Favourite Cricketers)
 3. Intermediate Html
+    .List Elements
+    .Nesting & Identations
+    .Anchor Tag
 
