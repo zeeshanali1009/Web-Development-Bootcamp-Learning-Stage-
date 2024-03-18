@@ -10,4 +10,7 @@ My Web development learning program involves the following stages:
     .List Elements
     .Nesting & Identations
     .Anchor Tag
+    .Image Element
+   .Favourite Cricketer (Simple Website)
+   
 
