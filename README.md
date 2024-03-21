@@ -20,5 +20,10 @@ My Web development learning program involves the following stages:
     .Adding CSS
     .CSS Selectors
     .Color Information Project (Simple Website)
+6. CSS Properties
+    .CSS Colors
+    .Font Properties
+    .CSS Box Model
+    .Motivation Meme Project (Simple Website)
    
 
