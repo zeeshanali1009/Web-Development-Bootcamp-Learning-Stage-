@@ -1,0 +1,23 @@
+/* There will be the different selectors */
+/* Group Selectors */
+h1,h2{
+    color: blueviolet;
+}
+/* Child Selectors  */
+.box > p{
+    color: blue;
+}
+/* Descendant Selectors  */
+div li{
+    color: brown;
+}
+/* Chaining Selectors  */
+li.done{
+    color: rgb(40, 78, 3);
+}
+/* Combining Selectors  */
+ul p.done{
+    color: rgb(3, 82, 83);
+    font-size: 0.5rem;
+}
+/* So these were the selectors which are used for more specification and precision */

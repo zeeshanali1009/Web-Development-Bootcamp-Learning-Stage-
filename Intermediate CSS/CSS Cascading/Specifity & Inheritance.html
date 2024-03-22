@@ -1,0 +1,45 @@
+<!-- In this part we will be learning about the CSS Spcificity -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Cascade</title>
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+
+  <body>
+    <div id="outer-box" class="box">
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="inner-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="inner-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- We have the specifity order as follow -->
+<!-- Position
+  more lower the element is more important it is -->
+<!-- Specifity
+    it is specified using this pattern
+    Element
+class
+Attribute
+Ids
+ -->
+<!-- Type
+ it is specified using this pattern
+External
+Internal
+Inline -->
+
+<!-- Importance 
+important element specifies the more importance of the tag -->
+<!-- More lower it is more important it is -->
