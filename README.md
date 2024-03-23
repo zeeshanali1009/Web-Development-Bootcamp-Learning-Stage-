@@ -25,5 +25,10 @@ My Web development learning program involves the following stages:
     .Font Properties
     .CSS Box Model
     .Motivation Meme Project (Simple Website)
+7. Intermediate CSS
+    .Cascading
+    .Combining Selectors
+    
+   
    
 
