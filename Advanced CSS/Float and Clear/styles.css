@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+    width: 40%;
+  }
+  p {
+    font-size: 1em;
+  }
+
+  .Babar {
+    float: left;
+    background-color: aquamarine;
+  }
+
+  .Virat {
+    float: right;
+    background-color: coral;
+  }
+
+  img {
+    float: left;
+  }
+
+  footer {
+    clear: both;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+  }
