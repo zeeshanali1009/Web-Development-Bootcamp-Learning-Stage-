@@ -28,6 +28,8 @@ My Web development learning program involves the following stages:
 7. Intermediate CSS
     .Cascading
     .Combining Selectors
+    .CSS Positioning
+    .Flag Project (Simple Website)
     
    
    
