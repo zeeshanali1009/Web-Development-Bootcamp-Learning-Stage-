@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Layouts</title>
+    <style>
+        .container0{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            /* gap: 10px; */
+        }
+        .container1{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* gap: 10px; */
+        }
+        .container2{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            flex-wrap: nowrap;
+           height: 40vh;
+            align-items:stretch;
+            /* gap: 10px; */
+        }
+        .container3{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            flex-wrap: wrap;
+            height: 40vh;
+            align-content:space-between;
+            /* gap: 10px; */
+        }
+        .container4{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            flex-wrap: nowrap;
+            height: 40vh;
+           align-self:stretch;
+            /* gap: 10px; */
+        }
+        .Red{
+            background-color: red;
+        }
+        .Orange{
+            background-color: Orange;
+        }
+        .Yellow{
+            background-color: Yellow;
+        }
+        .Purple{
+            background-color: Purple;
+        }
+        .Indigo{
+            background-color: Indigo;
+        }
+        .container > *{
+            flex-basis: 100px;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Different CSS Layouts</h2>
+    <div class="container0">
+        <div class="Red">Red</div>
+        <div class="Orange">Orange</div>
+        <div class="Yellow">Yellow</div>
+        <div class="Purple">Purple</div>
+        <div class="Indigo">Indigo</div>
+    </div>
+    <div class="container1">
+        <div class="Indigo">Indigo</div>
+        <div class="Red">Red</div>
+        <div class="Yellow">Yellow</div>
+        <div class="Purple">Purple</div>
+        <div class="Orange">Orange</div>
+    </div>
+    <div class="container2">
+        <div class="Purple">Purple</div>
+        <div class="Red">Red</div>
+        <div class="Orange">Orange</div>
+        <div class="Indigo">Indigo</div>
+        <div class="Yellow">Yellow</div>
+    </div>
+    <div class="container3">
+        <div class="Yellow">Yellow</div>
+        <div class="Red">Red</div>
+        <div class="Orange">Orange</div>
+        <div class="Indigo">Indigo</div>
+        <div class="Purple">Purple</div>
+    </div>
+    <div class="container4">
+        <div class="Indigo">Indigo</div>
+        <div class="Orange">Orange</div>
+        <div class="Yellow">Yellow</div>
+        <div class="Purple">Purple</div>
+        <div class="Red">Red</div>
+    </div>
+</body>
+</html>
+<!-- There are three different layouts for arranging all the content in the flexbox which are as :
+1. Justify Content : It justifies all the content accordingly with different scenarios and these different aspects are being used for different applications
+2. FlexWrap : Flexwrap is the property of the content which is being used for wrapping or unwrapping up the content
+3. Allign Item : Allign item only works in case if the flexwrap is activated on the no wrap and it is used for alligning the whole content with different aspescts
+4. Allign Content : Allign item is the property which is being used for only flexwrap property if it is activated to wrap item property with different aspects  -->

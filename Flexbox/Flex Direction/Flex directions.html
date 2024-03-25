@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Directions</title>
+    <style>
+        .container{
+            border: 2px solid rgb(239, 132, 132);
+            background-color: bisque;
+            display: flex;
+            /* gap: 10px; */
+        }
+        .Red{
+            background-color: red;
+        }
+        .Orange{
+            background-color: Orange;
+        }
+        .Yellow{
+            background-color: Yellow;
+        }
+        .Purple{
+            background-color: Purple;
+        }
+        .Indigo{
+            background-color: Indigo;
+        }
+        .container > *{
+            flex-basis: 100px;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Red">Red</div>
+        <div class="Orange">Orange</div>
+        <div class="Yellow">Yellow</div>
+        <div class="Purple">Purple</div>
+        <div class="Indigo">Indigo</div>
+    </div>
+</body>
+</html>
+<!-- Flexbox is the propert of CSS Layout through which layouts can be designed easily it has two directions one is row and the other one is coloumn while the row is the default one by which multiple data is dispalyed in the form of row while can be changed easily  -->
+<!-- flex basis is the property of flex box by which we can adjust the height or width of the content according to the aspect as it sets both these things according to the main axis which is always perpendicular to the cross axis. -->
+<!-- One thing to understand is very important that when flex direction is by default or along the row then the flex basis will adjust the width of the content and when direction is along the coloumn then the the flex-basis will adjust the height of the content and that is the most important aspect of this property of the CSS -->
