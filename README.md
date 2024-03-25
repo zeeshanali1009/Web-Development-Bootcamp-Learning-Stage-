@@ -30,6 +30,15 @@ My Web development learning program involves the following stages:
     .Combining Selectors
     .CSS Positioning
     .Flag Project (Simple Website)
+8. Advance CSS
+    .CSS Display
+    .Float and Clear
+    .Media Quries
+    .Web Design Agency Project(Simple Website)
+9. Flexbox
+    .Display Flex
+    .Flex Directions
+    .Flexible Layouts     
     
    
    
