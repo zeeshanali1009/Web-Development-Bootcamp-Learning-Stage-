@@ -39,6 +39,7 @@ My Web development learning program involves the following stages:
     .Display Flex
     .Flex Directions
     .Flexible Layouts     
+    .Price Table Project (Simple Website)
     
    
    
