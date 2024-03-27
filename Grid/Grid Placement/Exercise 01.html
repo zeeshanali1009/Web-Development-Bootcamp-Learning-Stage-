@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Placement Exercise 01</title>
+    <style>
+    .container{
+        height: 100vh;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 2fr 2fr 2.5fr;
+        grid-template-columns: 2fr 2fr;
+    }
+    .item{
+        font-size: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item emoji">🤠</div>
+    <div class="item astraunut">👨‍🚀</div>
+    <div class="item book">📖</div>
+</div>
+</body>
+</html>
+<!-- Using Flexbox to align the text to the center horizontally and vertically. -->
+<!-- In grid concept of CSS there is one very important thing to understand and that is the different concepts that will be used first of all rows and coloumns then there is the gap and gap specifies the space among the rows and coloumns then there is the track colloction of rows and coloumns and these tracks are basically for the best tracking of the rows and coloumns from the grid then there is the complete structure of the grid   -->
+<!-- In this particular exercise there is the use of flexbox and grid that how flexbox can be used to allign or justify the content of the grid collectively how the combination of both grid and flexbox can be used for the best and concise outcome-->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Sizing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div>width expands to fill space</div>
+        <div>400px wide</div>
+        <div>min 200px max 500px</div>
+        <div>width expands to fill space</div>
+        <div>400px wide</div>
+        <div>min 200px max 500px</div>
+        <div>width expands to fill space</div>
+        <div>400px wide</div>
+        <div>min 200px max 500px</div>
+    </div>
+</body>
+</html>
+<!-- These are the some properties for sizing the grid layout -->
+<!-- fr unit : this will make fractions in particular ratio which can be changed accordingly -->
+<!-- fixed or you can give exact value like giving 200px directly etc.... -->
+<!-- auto : it adjust the size of rows and coloumn accordingly following two criteria making the full use of screen space in case of column and adjusting the content in case of row  -->
+<!-- repeat (value for repetetion, value for sizing )  for instance repeat (4,400px) In this case 400px length column or row will get repeated for the 4 times -->
+<!-- minmax (min value, max value ) It specifies the range for making the use of grid very much responsive for instance minmax(200px,700px)  it will remain in this range to make the full use of the screen.-->

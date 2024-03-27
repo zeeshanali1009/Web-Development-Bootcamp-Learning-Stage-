@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Placement Exercise 01</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      height: 100vh;
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr 1.5fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .item {
+      font-size: 5rem;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: blueviolet;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .cowboy {
+      background-color: #ff8800;
+      grid-column: span 2;
+      /* this is the property of the grid to cover more then one cell using span or something more particular
+      like grid-column or grid-row by giving their particular values in it   */
+    }
+
+    .astronaut {
+      background-color: #03989E;
+      order: 1;
+      /* more the order is more the object or item will be at the bottom right of the grid that is ehy here the order has been kept more then anyother object for keeping it at the right bottom for the required condition */
+      /* grid-column: span 2; */
+      /* this same process can also be carried out by using these commands like  */
+      /* grid-column-start:1 ;
+      grid-column-end:3 ;
+      grid-row-start: 2;
+      grid-row-end: 3; */
+      /* these all the four commands can also be written using only one command  */
+      /* grid-area:row start / coloumn start / row end / column end  ; */
+      grid-area: 2 /1/ 3/ 3 ;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item cowboy">🤠</div>
+    <div class="item astronaut">👨‍🚀</div>
+    <div class="item book">📖</div>
+  </div>
+</body>
+</html>
+<!-- Make the astronaut box look like the emoji box in other words expand it in two cell just like emoji object has been expanded into two cells -->
+<!-- In this particular exercise i will cover how there is the placement is carried out using different grid rules and regulations  -->
