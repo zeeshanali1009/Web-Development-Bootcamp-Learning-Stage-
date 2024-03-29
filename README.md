@@ -40,6 +40,11 @@ My Web development learning program involves the following stages:
     .Flex Directions
     .Flexible Layouts     
     .Price Table Project (Simple Website)
+10. Grid
+    .Grid Display
+    .Grid Placement
+    .Grid Sizing   
+    .Mondrian Painting (Simple Website)
     
    
    
