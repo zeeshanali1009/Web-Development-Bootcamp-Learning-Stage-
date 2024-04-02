@@ -45,6 +45,10 @@ My Web development learning program involves the following stages:
     .Grid Placement
     .Grid Sizing   
     .Mondrian Painting (Simple Website)
+11. Bootstrap
+    .Bootstrap Intro
+    .Bootstrap Components
+
     
    
    
