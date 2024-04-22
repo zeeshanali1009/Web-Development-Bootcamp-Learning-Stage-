@@ -48,6 +48,8 @@ My Web development learning program involves the following stages:
 11. Bootstrap
     .Bootstrap Intro
     .Bootstrap Components
+    .Tindog Startup Website
+12. Capstone Project (Introduction to me)
 
     
    
