@@ -1,18 +1,23 @@
+/* Element Selectors */
 p{
     color: red;
 }
+/* class Selectors */
 .note{
     color: blue;
 }
+/* id selector */
 #specific-id{
     color: rgb(125, 18, 224);
 }
+/* use of value */
 li[value="4"]{
     color: green;
 }
 li[value="5"]{
     color: rgb(104, 4, 55);
 }
+/* Universal Selector */
 *{
     text-align: center;
     font-size: 20px;
